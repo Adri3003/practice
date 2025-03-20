@@ -1,10 +1,7 @@
 public class Program1{
 	public static void main(String[] args){
-		int a=10,b=20,c;
-		a=a+b;
-		b=a-b;
-		a=a-b;
-		System.out.println(a);
-		System.out.println(b);
+		int a=10;
+		for(a=10;a>0;a--)
+			System.out.println(a);
 	}
 }
